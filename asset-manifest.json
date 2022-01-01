@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.ab4c887b.css",
+    "main.js": "/react-gh-pages/static/js/main.cb8f8fdd.js",
+    "static/js/787.0fc4823d.chunk.js": "/react-gh-pages/static/js/787.0fc4823d.chunk.js",
+    "static/media/Sky-Stars-Pattern.jpg": "/react-gh-pages/static/media/Sky-Stars-Pattern.a26f7e449dc2919bb86b.jpg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.ab4c887b.css.map": "/react-gh-pages/static/css/main.ab4c887b.css.map",
+    "main.cb8f8fdd.js.map": "/react-gh-pages/static/js/main.cb8f8fdd.js.map",
+    "787.0fc4823d.chunk.js.map": "/react-gh-pages/static/js/787.0fc4823d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab4c887b.css",
+    "static/js/main.cb8f8fdd.js"
+  ]
+}
