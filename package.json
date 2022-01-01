@@ -2,7 +2,7 @@
   "name": "todotest",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://marikakonturova.github.io/react-gh-pages",
+  "homepage": "https://marikakonturova.github.io/todo_infotecs/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
