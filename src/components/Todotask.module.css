@@ -1,0 +1,96 @@
+.container {
+    border-left: 5px solid black;
+    height: 409px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 3px;
+}
+
+.scroll {
+    min-height: 409px;
+    height: fit-content;
+    overflow-y: auto;
+
+}
+
+.button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+
+}
+
+/*STATIC TASK*/
+
+.h1::first-letter {
+    padding-left: 10px;
+}
+.h1{
+    font-size: 20px;
+    word-break: break-all;}
+
+.done {
+    background-color: rgb(0, 176, 80);
+    color: #f5f5f5
+}
+
+.started {
+    background-color: rgb(103, 155, 206);
+    color: #f5f5f5
+
+}
+
+.pending {
+    background-color: rgb(117, 117, 117);
+    color: #f5f5f5
+}
+
+.desc {
+    width: 100%;
+    word-break: break-all;
+    height: 189px;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+    padding: 5px;
+}
+
+.button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+
+}
+
+/*UPDATE TASK*/
+
+.textarea {
+    width: 100%;
+    resize: none;
+    border: none;
+    height: 189px;
+    border-radius: 10px;
+}
+.textarea:focus {
+    outline: none
+}
+.update_container{
+    display: flex;
+    padding: 3px;
+    row-gap: 9px;
+}
+.update_button{
+    display: flex;
+align-self: center;
+}
