@@ -1,17 +1,19 @@
 .container {
     border-left: 5px solid black;
     height: 409px;
-    width: 100%;
+    width: 362px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 0 3px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 10px;
+
 }
 
 .scroll {
-    min-height: 409px;
-    height: fit-content;
+    height: min(409px, fit-content);
     overflow-y: auto;
 
 }
@@ -30,9 +32,11 @@
 .h1::first-letter {
     padding-left: 10px;
 }
-.h1{
+
+.h1 {
     font-size: 20px;
-    word-break: break-all;}
+    word-break: break-all;
+}
 
 .done {
     background-color: rgb(0, 176, 80);
@@ -82,15 +86,18 @@
     height: 189px;
     border-radius: 10px;
 }
+
 .textarea:focus {
     outline: none
 }
-.update_container{
+
+.update_container {
     display: flex;
     padding: 3px;
     row-gap: 9px;
 }
-.update_button{
+
+.update_button {
     display: flex;
-align-self: center;
+    align-self: center;
 }

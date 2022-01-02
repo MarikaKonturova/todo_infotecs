@@ -2,9 +2,16 @@
     height: 409px;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    /*width: max(40vh, 362px);*/
+    max-width: 100vh;
+    min-width: 370px;
     padding: 0 3px;
     box-sizing: border-box;
+    overflow-y: auto;
+    resize: horizontal;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 10px;
+
 }
 
 .header {
@@ -48,7 +55,7 @@
     row-gap: 5px;
     padding-top: 8px;
     width: 100%;
-    overflow-y: auto
+
 }
 
 .task {
