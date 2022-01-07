@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/todo_infotecs/static/css/main.7446cd22.css",
-    "main.js": "/todo_infotecs/static/js/main.8d16b0cb.js",
+    "main.css": "/todo_infotecs/static/css/main.7a311832.css",
+    "main.js": "/todo_infotecs/static/js/main.7fd5eead.js",
     "static/js/787.0fc4823d.chunk.js": "/todo_infotecs/static/js/787.0fc4823d.chunk.js",
     "static/media/Sky-Stars-Pattern.jpg": "/todo_infotecs/static/media/Sky-Stars-Pattern.a26f7e449dc2919bb86b.jpg",
     "index.html": "/todo_infotecs/index.html",
-    "main.7446cd22.css.map": "/todo_infotecs/static/css/main.7446cd22.css.map",
-    "main.8d16b0cb.js.map": "/todo_infotecs/static/js/main.8d16b0cb.js.map",
+    "main.7a311832.css.map": "/todo_infotecs/static/css/main.7a311832.css.map",
+    "main.7fd5eead.js.map": "/todo_infotecs/static/js/main.7fd5eead.js.map",
     "787.0fc4823d.chunk.js.map": "/todo_infotecs/static/js/787.0fc4823d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7446cd22.css",
-    "static/js/main.8d16b0cb.js"
+    "static/css/main.7a311832.css",
+    "static/js/main.7fd5eead.js"
   ]
 }
