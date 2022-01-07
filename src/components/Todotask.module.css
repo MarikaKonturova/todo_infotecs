@@ -1,103 +1,98 @@
 .container {
-    border-left: 5px solid black;
-    height: 409px;
-    width: 362px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 0 3px;
-    background: rgba(255, 255, 255, 0.85);
-    border-radius: 10px;
-
+  height: 100%;
+  border-left: 5px solid black;
+  width: 362px;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
 }
 
 .scroll {
-    height: min(409px, fit-content);
-    overflow-y: auto;
-
+  height: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .button {
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    background-color: white;
-
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: white;
 }
 
 /*STATIC TASK*/
 
 .h1::first-letter {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 .h1 {
-    font-size: 20px;
-    word-break: break-all;
+  font-size: 20px;
+  word-break: break-all;
 }
 
 .done {
-    background-color: rgb(0, 176, 80);
-    color: #f5f5f5
+  background-color: rgb(0, 176, 80);
+  color: #f5f5f5;
 }
 
 .started {
-    background-color: rgb(103, 155, 206);
-    color: #f5f5f5
-
+  background-color: rgb(103, 155, 206);
+  color: #f5f5f5;
 }
 
 .pending {
-    background-color: rgb(117, 117, 117);
-    color: #f5f5f5
+  background-color: rgb(117, 117, 117);
+  color: #f5f5f5;
 }
 
 .desc {
-    width: 100%;
-    word-break: break-all;
-    height: 189px;
-    border-radius: 10px;
+  width: 100%;
+  word-break: break-all;
+  height: 189px;
+  border-radius: 10px;
 }
 
 .buttons {
-    display: flex;
-    column-gap: 50px;
-    justify-content: center;
-    padding: 5px;
+  display: flex;
+  column-gap: 50px;
+  justify-content: center;
+  padding: 5px;
 }
 
 .button {
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    background-color: white;
-
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: white;
 }
 
 /*UPDATE TASK*/
 
 .textarea {
-    width: 100%;
-    resize: none;
-    border: none;
-    height: 189px;
-    border-radius: 10px;
+  width: 100%;
+  resize: none;
+  border: none;
+  height: 189px;
+  border-radius: 10px;
 }
 
 .textarea:focus {
-    outline: none
+  outline: none;
 }
 
 .update_container {
-    display: flex;
-    padding: 3px;
-    row-gap: 9px;
+  display: flex;
+  flex-direction: column;
+  padding: 6px 3px;
+  row-gap: 9px;
 }
 
 .update_button {
-    display: flex;
-    align-self: center;
+  display: flex;
+  align-self: center;
 }

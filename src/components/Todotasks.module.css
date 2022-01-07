@@ -1,79 +1,76 @@
 .container {
-    height: 409px;
-    display: flex;
-    flex-direction: column;
-    /*width: max(40vh, 362px);*/
-    max-width: 100vh;
-    min-width: 370px;
-    padding: 0 3px;
-    box-sizing: border-box;
-    overflow-y: auto;
-    resize: horizontal;
-    background: rgba(255, 255, 255, 0.85);
-    border-radius: 10px;
-
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 60vw;
+  min-width: 370px;
+  padding: 0 3px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  resize: horizontal;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
 }
 
 .header {
-    display: flex;
-    flex-direction: row;
-    padding: 5px 0;
+  display: flex;
+  flex-direction: row;
+  padding: 5px 0;
 }
 
 .h1 {
-    padding-left: 10px;
-    flex: 7
+  padding-left: 10px;
+  flex: 7;
 }
 
 .button {
-    flex: 4;
-    margin-right: 7px;
-    font-size: 15px;
-    background-color: #ffffff;
-    padding: 1px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
+  flex: 4;
+  margin-right: 7px;
+  font-size: 15px;
+  background-color: #ffffff;
+  padding: 1px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .button:active {
-    opacity: 80%;
+  opacity: 80%;
 }
 
 .input {
-    color: #4d3d5e;
-    font-size: 14px;
-    border: none;
-    padding: 1px;
-    width: 99%;
-    align-self: center;
+  color: #4d3d5e;
+  font-size: 14px;
+  border: none;
+  padding: 1px;
+  width: 99%;
+  align-self: center;
 }
 
 .tasks {
-    display: flex;
-    flex-flow: row wrap;
-    row-gap: 5px;
-    padding-top: 8px;
-    width: 100%;
-
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 5px;
+  padding-top: 8px;
+  width: 100%;
 }
 
 .task {
-    padding: 0 8px;
-    width: 100%
+  padding: 0 8px;
+  width: 100%;
 }
 
 .done {
-    background-color: rgb(0, 176, 80);
-    color: #f5f5f5
+  background-color: rgb(0, 176, 80);
+  color: #f5f5f5;
 }
 
 .started {
-    background-color: rgb(103, 155, 206);
-    color: #f5f5f5
+  background-color: rgb(103, 155, 206);
+  color: #f5f5f5;
 }
 
 .pending {
-    background-color: rgb(117, 117, 117);
-    color: #f5f5f5
+  background-color: rgb(117, 117, 117);
+  color: #f5f5f5;
 }
